@@ -1,0 +1,336 @@
+{
+ "cats": [
+  "Streaming",
+  "IPTV",
+  "Canva",
+  "Música",
+  "Herramientas / Edición",
+  "Inteligencia Artificial",
+  "Juegos y Recargas"
+ ],
+ "serv": [
+  {
+   "n": "Netflix",
+   "cat": "Streaming",
+   "color": "var(--c-netflix)",
+   "planes": [
+    {
+     "label": "Perfil Individual",
+     "precio": 5.4,
+     "oferta": 3.5
+    },
+    {
+     "label": "Perfil Extra (a tu correo personal)",
+     "precio": 7
+    },
+    {
+     "label": "Cuenta completa Estándar (3 perfiles)",
+     "precio": 11.5
+    },
+    {
+     "label": "Cuenta completa Premium (5 perfiles)",
+     "precio": 16
+    }
+   ]
+  },
+  {
+   "n": "Disney+",
+   "cat": "Streaming",
+   "color": "var(--c-disney)",
+   "planes": [
+    {
+     "label": "Perfil Estándar (2 ESPN)",
+     "precio": 2.5
+    },
+    {
+     "label": "Perfil Premium Hulu (3 ESPN)",
+     "precio": 3.5
+    },
+    {
+     "label": "Perfil Premium Premium (7 ESPN)",
+     "precio": 5.5
+    }
+   ]
+  },
+  {
+   "n": "HBOMAX",
+   "cat": "Streaming",
+   "color": "var(--c-hbo)",
+   "planes": [
+    {
+     "label": "Perfil Estándar",
+     "precio": 1.8
+    },
+    {
+     "label": "Perfil Platino (2 dispositivos)",
+     "precio": 3
+    }
+   ]
+  },
+  {
+   "n": "Prime Video",
+   "cat": "Streaming",
+   "color": "var(--c-prime)",
+   "planes": [
+    {
+     "label": "Perfil Individual",
+     "precio": 3
+    }
+   ]
+  },
+  {
+   "n": "Crunchyroll",
+   "cat": "Streaming",
+   "color": "var(--c-crunchyroll)",
+   "planes": [
+    {
+     "label": "Perfil Individual",
+     "precio": 2.5
+    }
+   ]
+  },
+  {
+   "n": "Apple TV",
+   "cat": "Streaming",
+   "color": "var(--c-apple)",
+   "planes": [
+    {
+     "label": "Dispositivo",
+     "precio": 4
+    }
+   ]
+  },
+  {
+   "n": "YouTube Premium",
+   "cat": "Streaming",
+   "color": "var(--c-youtube)",
+   "planes": [
+    {
+     "label": "Individual mensual",
+     "precio": 6
+    }
+   ]
+  },
+  {
+   "n": "Plex",
+   "cat": "Streaming",
+   "color": "var(--c-plex)",
+   "planes": [
+    {
+     "label": "Perfil",
+     "precio": 4.5
+    },
+    {
+     "label": "Cuenta completa (3 dispositivos)",
+     "precio": 12
+    }
+   ]
+  },
+  {
+   "n": "FlujoTV",
+   "cat": "IPTV",
+   "color": "var(--c-flujo)",
+   "planes": [
+    {
+     "label": "Dispositivo",
+     "precio": 4.5
+    },
+    {
+     "label": "Cuenta completa (3 dispositivos)",
+     "precio": 11
+    }
+   ]
+  },
+  {
+   "n": "Telelatino",
+   "cat": "IPTV",
+   "color": "var(--c-telelatino)",
+   "planes": [
+    {
+     "label": "Dispositivo",
+     "precio": 4
+    }
+   ]
+  },
+  {
+   "n": "Canva",
+   "cat": "Canva",
+   "color": "var(--c-canva)",
+   "planes": [
+    {
+     "label": "Invitación",
+     "meses": {
+      "1": 0.5,
+      "3": 1.25,
+      "6": 2,
+      "12": 3
+     },
+     "oferta": {
+      "12": 1.5
+     }
+    }
+   ]
+  },
+  {
+   "n": "Spotify Premium",
+   "cat": "Música",
+   "color": "var(--c-spotify)",
+   "planes": [
+    {
+     "label": "Individual invitada a plan familiar",
+     "precio": 4.5
+    },
+    {
+     "label": "Individual Total (factura independiente)",
+     "precio": 6
+    }
+   ]
+  },
+  {
+   "n": "Deezer",
+   "cat": "Música",
+   "color": "var(--c-deezer)",
+   "planes": [
+    {
+     "label": "Individual",
+     "precio": 5
+    }
+   ]
+  },
+  {
+   "n": "TIDAL",
+   "cat": "Música",
+   "color": "#1a1a1a",
+   "planes": [
+    {
+     "label": "Individual",
+     "precio": 5.5
+    }
+   ]
+  },
+  {
+   "n": "CapCut",
+   "cat": "Herramientas / Edición",
+   "color": "var(--c-capcut)",
+   "planes": [
+    {
+     "label": "Dispositivo",
+     "precio": 7.5
+    },
+    {
+     "label": "Cuenta completa (2 dispositivos)",
+     "precio": 15
+    }
+   ]
+  },
+  {
+   "n": "Office 365",
+   "cat": "Herramientas / Edición",
+   "color": "var(--c-office)",
+   "planes": [
+    {
+     "label": "5 dispositivos (3 meses de garantía)",
+     "meses": {
+      "12": 20
+     }
+    }
+   ]
+  },
+  {
+   "n": "ChatGPT",
+   "cat": "Inteligencia Artificial",
+   "color": "var(--c-chatgpt)",
+   "planes": [
+    {
+     "label": "Usuario compartido",
+     "precio": 10.5
+    },
+    {
+     "label": "Cuenta completa Individual",
+     "precio": 28
+    }
+   ]
+  },
+  {
+   "n": "Gemini AI Pro + 1TB",
+   "cat": "Inteligencia Artificial",
+   "color": "#4285f4",
+   "planes": [
+    {
+     "label": "Invitación",
+     "meses": {
+      "1": 3.5,
+      "3": 7,
+      "12": 14
+     }
+    }
+   ]
+  }
+ ],
+ "desc": {
+  "1": 0,
+  "3": 0.1,
+  "6": 0.15,
+  "12": 0.2
+ },
+ "pagos": [
+  {
+   "n": "Pago Móvil"
+  },
+  {
+   "n": "Transferencia Bancaria"
+  },
+  {
+   "n": "Binance Pay"
+  },
+  {
+   "n": "Wally"
+  },
+  {
+   "n": "Zinli",
+   "min": 12
+  },
+  {
+   "n": "Zelle",
+   "min": 15
+  },
+  {
+   "n": "Uglycash",
+   "min": 15
+  },
+  {
+   "n": "OKX",
+   "min": 1
+  },
+  {
+   "n": "Belo",
+   "min": 5
+  },
+  {
+   "n": "Pesos colombianos (Bre-b)",
+   "min": 4
+  },
+  {
+   "n": "Pesos chilenos (transferencia)",
+   "min": 6
+  }
+ ],
+ "faq": [
+  {
+   "q": "¿Cómo recibo mi servicio después de pagar?",
+   "a": "Una vez confirmado el pago, recibes las credenciales o la activación directamente por WhatsApp en un plazo de 1 a 24 horas. La mayoría de los servicios se entregan en minutos."
+  },
+  {
+   "q": "¿Qué pasa si mi servicio falla o se cae?",
+   "a": "Ofrecemos soporte post-venta. Si tu servicio presenta fallas por causas atribuibles al proveedor, te ofrecemos solución o compensación de días. Escríbenos por WhatsApp con el detalle del problema."
+  },
+  {
+   "q": "¿Puedo compartir mi cuenta con otra persona?",
+   "a": "Depende del tipo de servicio. Los perfiles son de uso personal. Las cuentas completas incluyen múltiples perfiles según el plan. Consulta las especificaciones de cada opción antes de comprar."
+  },
+  {
+   "q": "¿Cuáles métodos de pago aceptan?",
+   "a": "Aceptamos Bs vía Pago Móvil, Binance Pay, Zinli, Zelle y Wally."
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+NOVADESK ACTUALIZADO
+
+Reemplaza index.html, admin.html y seed.json en tu repositorio. Sube tambien og.jpg a la raiz del repositorio para que funcione la vista previa al compartir.
+
+Funciones incluidas: carrito persistente durante 7 dias (localStorage), boton ✕ por producto, disponibilidad AGOTADO por plan desde el administrador, validacion de disponibilidad y actualizacion de precios antes de enviar por WhatsApp, y metadatos Open Graph/Twitter con tu banner.
+
+No cambies firebase-config.js ni las reglas de Firestore. Los planes existentes se consideran disponibles por defecto. Para marcar uno como agotado: Admin > Servicios > abre el servicio > marca AGOTADO en el plan > Guardar y publicar.
+
+La imagen OG apunta a: https://raw.githubusercontent.com/bynov4verse/NovaStreamingServices/main/og.jpg
